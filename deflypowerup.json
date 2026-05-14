@@ -1,0 +1,9 @@
+{
+  "name": "Select USE by default",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "type": "replacement",
+  "replacements": [
+    "expressions/serverSelect.json"
+  ]
+}

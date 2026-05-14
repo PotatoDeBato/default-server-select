@@ -1,0 +1,4 @@
+{
+  "expression": "/document\\.getElementById\\(\"server\"\\)\\.value=V/",
+  "replacement": "document.getElementById(\"server\").value='USE1'"
+}
