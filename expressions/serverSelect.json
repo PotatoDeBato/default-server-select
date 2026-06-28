@@ -1,4 +1,4 @@
 {
-  "expression": "/document\\.getElementById\\(\"server\"\\)\\.value=V/",
-  "replacement": "document.getElementById(\"server\").value='USE1'"
+  "expression": "/document\\.getElementById\\(\"server\"\\)\\.value=([A-Za-z]+),([^.]+)\\.selectmenu/u",
+  "replacement": "document.getElementById(\"server\").value=utils.SubFeatures?.default_server?.opt.value,$2.selectmenu"
 }
