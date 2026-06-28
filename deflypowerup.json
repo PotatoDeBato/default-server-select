@@ -1,9 +1,17 @@
 {
-  "name": "SelectUSEast",
+  "name": "DefaultServerSelect",
   "version": "1.0.0",
   "manifest_version": 1,
   "type": "replacement",
   "replacements": [
     "expressions/serverSelect.json"
+  ],
+  "settings": [
+    {
+        "title": "Select default server",
+        "id": "default_server",
+        "type": "dropdown",
+        "options": ["EU1", "EU2", "USE1", "USW1", "TOK1", "SA1", "RU1", "TR", "AU"]
+    }
   ]
 }
